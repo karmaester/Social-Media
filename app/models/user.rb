@@ -36,6 +36,6 @@ class User < ApplicationRecord
   end
 
   def friends_and_own_posts
-    Post.where(user: (self.friends << self)).ordered_by_most_recent
+    Post.where(user: (friends << self)).ordered_by_most_recent
   end
 end
