@@ -1,7 +1,8 @@
 module UserHelper
   def add_friend(user)
     if current_user.id == user.id || current_user.friend?(user) || current_user.not_friend?(user)
-      || user.friend?(current_user) || user.not_friend?(current_user)
+      nil
+    elsif user.friend?(current_user) || user.not_friend?(current_user)
       nil
     else
       link_to 'Add Friend',

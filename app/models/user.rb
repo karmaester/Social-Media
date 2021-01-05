@@ -38,4 +38,12 @@ class User < ApplicationRecord
   def friends_and_own_posts
     Post.where(user: (friends << self)).ordered_by_most_recent
   end
+
+  def user_friend
+    current_user.friend?(user) || user.friend?(current_user)
+  end
+
+  def user_not_friend
+    current_user.not_friend?(user) || user.not_friend?(current_user)
+  end
 end
