@@ -2,6 +2,8 @@
 
 > Practice of friendship table in Rails using social media scaffold forked from Microverse.
 
+![screenshot](app/assets/images/screenshot.png)
+
 ## Built With
 
 - Ruby v2.7.0
