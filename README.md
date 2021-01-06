@@ -1,6 +1,8 @@
 # Scaffold for social media app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> Practice of friendship table in Rails using social media scaffold forked from Microverse.
+
+![screenshot](app/assets/images/screenshot.png)
 
 ## Built With
 
@@ -9,7 +11,7 @@
 
 ## Live Demo
 
-TBA
+[Live version](https://guarded-journey-74632.herokuapp.com)
 
 
 ## Getting Started
@@ -62,16 +64,24 @@ Open `http://localhost:3000/` in your browser.
 ```
     rpsec --format documentation
 ```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
 ### Deployment
 
 TBA
 
 ## Authors
 
-TBA
+👤 **Khristian Rojas**
+
+- Github: [@githubhandle](https://github.com/karmaester)
+- Twitter: [@twitterhandle](https://twitter.com/karmaendlich)
+- Linkedin: [linkedin](https://www.linkedin.com/in/khristian-rojas/)
+
+👤 **Brian Cruz**
+
+- Github: [@githubhandle](https://github.com/BrianSammit)
+- Twitter: [@twitterhandle](https://twitter.com/cruzsammit)
+- Linkedin: [linkedin](https://www.linkedin.com/in/brian-sammit-cruz-rodriguez-5877551a8/)
+
 
 ## 🤝 Contributing
 
@@ -85,9 +95,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+
+- The Odin Project
+- Rails guides
+- Microverse
+- Stand up Team
 
 ## 📝 License
 
-TBA
-
+This project is [MIT](lic.url) licensed.![]
