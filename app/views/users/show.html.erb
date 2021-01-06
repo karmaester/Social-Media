@@ -29,6 +29,7 @@
       <h3>Pending invitations</h3>
       <% current_user.pending_friends.each do |person| %>
         <%= link_to person.name, user_path(person.id)  %>
+        <%= link_to 'Cancel invitation', cancel_path(user_id: person.id, friend_id: current_user.id), class: 'btn btn-danger', method: :delete %>
       <% end %>
       </li>
     <% end %>

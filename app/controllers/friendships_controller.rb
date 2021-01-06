@@ -28,6 +28,12 @@ class FriendshipsController < ApplicationController
     redirect_to users_path, notice: 'Friendship accepted successfully'
   end
 
+  def cancel
+    @friendship = Friendship.find_by(friend_id: params[:user_id], user_id: params[:friend_id])
+    @friendship.destroy
+    redirect_to users_path, notice: 'Friend request canceled'
+  end
+
   def reject
     @friendship = Friendship.find_by(friend_id: params[:friend_id], user_id: params[:user_id])
     @friendship = Friendship.find_by(friend_id: params[:user_id], user_id: params[:friend_id]) if @friendship.nil?
